@@ -1,0 +1,9 @@
+.ErrorView {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    font-weight: 600;
+    min-width: 100vw;
+    text-align: center;
+}

@@ -1,0 +1,4 @@
+.Lecturers {
+    display: flex;
+    flex-flow: wrap;
+}

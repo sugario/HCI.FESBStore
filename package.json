@@ -1,0 +1,43 @@
+{
+    "name": "1",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node ./bin/www",
+        "n": "set NODE_ENV=production&& webpack",
+        "dev": "webpack -d --progress --colors --watch",
+        "dev-server": "./node_modules/.bin/webpack-dev-server --progress",
+        "clean": "./node_modules/.bin/rimraf ./public/*",
+        "build": "react-scripts build"
+    },
+    "dependencies": {
+        "font-awesome": "^4.7.0",
+        "react": "^15.6.0",
+        "react-dom": "^15.6.0",
+        "react-fontawesome": "^1.6.1",
+        "react-router": "^4.2.0",
+        "react-router-dom": "^4.2.2"
+    },
+    "devDependencies": {
+        "babel-core": "^6.25.0",
+        "babel-loader": "^7.0.0",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-plugin-transform-object-rest-spread": "^6.23.0",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.24.1",
+        "classnames": "^2.2.5",
+        "compression-webpack-plugin": "^1.0.1",
+        "copy-webpack-plugin": "^4.2.3",
+        "css-loader": "^0.28.4",
+        "extract-text-webpack-plugin": "^2.1.2",
+        "file-loader": "^1.1.5",
+        "html-webpack-plugin": "^2.29.0",
+        "optimize-css-assets-webpack-plugin": "^3.2.0",
+        "rimraf": "^2.6.2",
+        "style-loader": "^0.18.2",
+        "url-loader": "^0.6.2",
+        "webpack": "^2.6.1",
+        "webpack-dev-server": "^2.4.5"
+    }
+}

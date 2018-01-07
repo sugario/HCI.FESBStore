@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    background: #333;
+    padding: 15px;
+}
+
+.search-box {
+    margin-right: auto;
+}
+
+img.logo {
+    background-color: white;
+    border-radius: 90%;
+
+    cursor: pointer;
+}
+
+i.shopping-cart {
+    font-size: 25px;
+    color: #4CAF50;
+    margin: auto 0 auto 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 550px) {
+    img.logo {
+        margin: 0 auto;
+    }
+
+    i.shopping-cart {
+        margin-left: 0;
+    }
+}

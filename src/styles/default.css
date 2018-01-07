@@ -1,0 +1,45 @@
+* {
+    font-family: Verdana,sans-serif;
+    margin: 0;
+    padding: 0;
+    /* position: relative; */
+}
+
+html, body {
+    height: 100%;
+}
+
+.hide {
+	display: none;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+.reverse-small {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.search-page-container {
+    display: flex;
+   /*  height: 100vh; */
+}
+
+@media (max-width: 550px) {
+    .reverse-small {
+        flex-direction: column-reverse;
+    }
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}

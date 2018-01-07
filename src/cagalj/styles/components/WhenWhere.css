@@ -1,0 +1,4 @@
+.WhenWhere__p::before {
+    content: '';
+    vertical-align: middle;
+}

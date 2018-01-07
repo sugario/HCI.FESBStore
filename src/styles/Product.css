@@ -1,0 +1,40 @@
+.product-item  {
+    display: flex;
+    
+    max-width: 25vw;
+
+    background-color: white;
+    border-radius: 9%;
+
+    margin: 2vh;
+    padding: 2vh;
+}
+
+button {
+    border: 0;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    background: #4CAF50;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-left: auto;
+}
+  
+button:hover {
+    text-decoration: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.product-item > img {
+    max-height: 20vh;
+    align-self: center;
+    margin-right: 20px;
+    border: solid 2px #333;
+}

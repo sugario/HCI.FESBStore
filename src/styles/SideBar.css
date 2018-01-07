@@ -1,0 +1,43 @@
+.side-bar {
+    display: flex;
+    /* position: fixed; */
+  
+    margin-top: -10px;
+
+    background: #333;
+    color: white;
+    
+}
+
+.side-bar > ul {
+
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 25vh;
+}
+
+h1.side-bar-item {
+    color: #4CAF50;
+}
+
+.side-bar-item {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.side-bar-item:hover {
+    background-color: #4CAF50;
+
+    padding-left: 20px;
+
+
+    cursor: pointer;
+}
+
+@media (max-width: 550px) {
+    .side-bar {
+        display: none;
+    }
+}

@@ -1,0 +1,317 @@
+{
+    "navigation": [
+        "Ukratko",
+        "Predavanja",		
+        "Projekti",	
+        "Ocjenjivanje",
+        "Konzultacije"
+    ],
+
+    "header": {
+        "naslov": "Korisnička sučelja",
+        "podnaslov": "Računarstvo, 2017./2018."
+    },
+
+    "footer": {
+        "naslov": "Human Computer Interaction @ FESB",
+        "tekst": "Now you not only know how to build a web page, but also how to design it.",
+        "izvor": {
+            "ime": "SimpleIcon",
+            "tekst": "© Icons made by",
+            "link": "http://www.flaticon.com/authors/simpleicon"
+        }
+    },
+
+    "content": {
+        "index": "ukratko",
+
+        "ukratko": {
+            "naslov": "Osnove o predmetu",
+            "items": [
+                {
+                    "type": "lecturers",
+                    "content": [
+                        {
+                            "uloga": "Predavač",
+                            "ime": "Mario",
+                            "prezime": "Čagalj",
+                            "email": "mcagalj@fesb.hr",
+                            "web": "marjan.fesb.hr/~mcagalj",
+                            "photo": "img/mcagalj.jpg"
+                        },
+                        {
+                            "uloga": "Asistent",
+                            "ime": "Toni",
+                            "prezime": "Perković",
+                            "email": "toperkov@fesb.hr",
+                            "web": "marjan.fesb.hr/~toperkov",
+                            "photo": "img/toperkov.jpg"
+                        },
+                        {
+                            "whenwhere": {
+                                "when": {
+                                    "tekst": "Kada:",
+                                    "kada": "utorkom, 08h15-10h00"
+                                },				
+                                "where": {
+                                    "tekst": "Gdje:",
+                                    "gdje": "C402"
+                                }		
+                            }		
+                        }
+                    ]
+                }
+            ]
+        },
+
+        "ukratko/sadrzaj": {
+            "naslov": "Sadržaj",
+            "items": [				
+                {
+                    "type": "html",
+                    "content": "U okviru predmenta studenti će se upoznati sa osnovama iz područja dizajna korisničkih sučelja i interakcije čovjeka i računala. U okviru kolegija obradit ćemo sljedeće tematske cjeline:"
+                },
+                {
+                    "type": "list",
+                    "content": [
+                        "psihologija i dizajn svakodnevnih stvari",
+                        "čovjek i tehnologija/računalo: interakcija sa strane čovjeka",
+                        "interakcija sa strane računala",
+                        "modeli ponašanja čovjeka u interakciji s računalom",
+                        "postupak razvoja interaktivnog sustava",
+                        "osnovni principi dobrog dizajna",
+                        "vrednovanje korisničkog sučelja",
+                        "izrada prototipa i implementacija"
+                    ]
+                }
+            ]
+        },		
+
+        "ocjenjivanje": {
+            "naslov": "Ocjenjivanje",
+            "items": [
+                {
+                    "type": "html",
+                    "content": "Konačna ocjena iz predmeta formira se na sljedeći način:"
+                },
+                {
+                    "type": "list",
+                    "content": [
+                        "A - Prisustvo = 5%",
+                        "B - Izvještaj i prezentacija projekta = 45%",
+                        "C - kolokvij = 50%"
+                    ]
+                },
+                {
+                    "type": "html",
+                    "content": "<b>Napomena:</b> Ukoliko student ne dobije pozitivnu ocjenu iz neke od navedenih kategorija, odgovarajući težinski faktor za tu kategoriju je nula (0)."
+                }				
+            ]
+        },
+
+        "konzultacije": {
+            "naslov": "Konzultacije",
+            "items": [
+                {
+                    "type": "html",
+                    "content": "Konzultacije će se održati po dogovoru sa studentom. Molio bih vas da me prethodno kontaktirajte putem emaila. Zahvaljujem na razumijevanju."
+                },
+                {
+                    "type": "html",
+                    "content": "<a class='Icon Icon--email' href='mailto:mario.cagalj@fesb.hr'>mario.cagalj@fesb.hr</a><p>Moj ured: A503</p>"
+                }							
+            ]
+        },
+
+        "predavanja": {
+            "naslov": "Predavanja",
+            "items": [
+                {
+                    "type": "lectures",
+                    "content": [
+                        {
+                            "naslov": "General info / Intro / Demos",
+                            "slides": "Lectures/Lecture_1.ppt",
+                            "literatura": "Lect_1"
+                        },
+                        {
+                            "naslov": "Usability and usability (design) principles",
+                            "slides": "Lectures/Lecture_2.ppt",
+                            "literatura": "Lect_2"
+                        },
+                        {
+                            "naslov": "The Psychology of Everyday Actions",
+                            "slides": "Lectures/Lecture_3.ppt",
+                            "literatura": "Lect_3"
+                        },
+                        {
+                            "naslov": "Design Heuristics and Heuristic Evaluation",
+                            "slides": "Lectures/Lecture_4.ppt",
+                            "literatura": "Lect_4"
+                        },
+                        {
+                            "naslov": "Guest lecture (tba)"
+                        },
+                        {
+                            "naslov": "Basic Visual Design Principles (CRAP)",
+                            "slides": "Lectures/Lecture_7.ppt",
+                            "literatura": "Lect_5"
+                        },
+                        {
+                            "naslov": "Using Colors Effectively in Graphical Design",
+                            "slides": "Lectures/Lecture_8.ppt",
+                            "literatura": "Lect_6"
+                        },																		
+                        {
+                            "naslov": "Student presentations"
+                        }																		
+                    ]
+                }
+            ]
+        },
+        
+        "predavanja/literatura": {
+            "naslov": "Literatura",
+            "items": [
+                { 
+                    "type": "literature",
+                     "content": [
+                        {
+                            "literatura": "Lect_1",
+                            "references": [
+                                {
+                                    "naslov": "A Taxonomy of Human Computer Interaction",
+                                    "author": "Saul Greenberg",									
+                                    "link": "http://grouplab.cpsc.ucalgary.ca/saul/hci_topics/taxonomy.html"
+                                },
+                                {
+                                    "naslov": "How to Design Usable Systems",
+                                    "author": "John D. Gould",
+                                    "link": "Readings/Gould.pdf"
+                                }
+                            ]
+                        },
+                        {
+                            "literatura": "Lect_2",
+                            "references": [
+                                {
+                                    "naslov": "The Design of Everyday Things",
+                                    "author": "Donald A. Norman",
+                                    "year": 1988,
+                                    "link": "http://www.usabilitypost.com/2010/11/17/the-design-of-everyday-things"
+                                },
+                                {
+                                    "naslov": "Bad Human Factor Designs",
+                                    "author": "Michael J. Darnell",
+                                    "link": "http://www.baddesigns.com/"
+                                },
+                                {
+                                    "naslov": "iOS Human Interface Guidelines",
+                                    "author": "Apple",
+                                    "year": 2016,
+                                    "link": "https://developer.apple.com/ios/human-interface-guidelines"
+                                },
+                                {
+                                    "naslov": "User Interface Design Patterns",
+                                    "author": "UIPatterns",
+                                    "year": 2016,
+                                    "link": "http://ui-patterns.com"
+                                }
+                            ]
+                        },
+                        {
+                            "literatura": "Lect_3",
+                            "references": [{
+                                    "naslov": "Norman's Gulfs of Execution and Evaluation",
+                                    "author": "Richard Griffiths",
+                                    "year": 2012,
+                                    "link": "http://www.it.bton.ac.uk/staff/rng/teaching/notes/NormanGulfs.html"
+                                },
+                                {
+                                    "naslov": "Fitts’ Law: Modeling Movement Time in HC",
+                                    "author": "Haixia Zhao",
+                                    "year": 2002,
+                                    "link": "http://www.cs.umd.edu/class/fall2002/cmsc838s/tichi/fitts.html"
+                                },
+                                {
+                                    "naslov": "Fitts' Law as a Research and Design Tool in Human-Computer Interaction",
+                                    "author": "Scott MacKenzie",
+                                    "year": 1992,
+                                    "link": "http://www.yorku.ca/mack/hci1992.pdf"
+                                }
+                            ]
+                        },
+                        {
+                            "literatura": "Lect_4",
+                            "references": [{
+                                    "naslov": "Heuristic Evaluation: Jakob Nielsen's Online Writings on Heuristic Evaluation",
+                                    "author": "Jakob Nielsen",
+                                    "year": 2011,
+                                    "link": "http://www.useit.com/papers/heuristic/"
+                                },
+                                {
+                                    "naslov": "Design Principles",
+                                    "author": "Robert C. Miller, (MIT course: User Interface Design and Implementation)",
+                                    "year": 2006,
+                                    "link": "http://courses.csail.mit.edu/6.831/2006/lectures/L5.pdf"
+                                }
+                            ]
+                        },
+                        {
+                            "literatura": "Lect_5",
+                            "references": [{
+                                "naslov": "Non-Designers Design Book: Design and Typographic Principles for the Visual Novice",
+                                "author": "Robin Williams (avaliable from Amazon)",
+                                "year": 2008,
+                                "link": "http://www.amazon.com/Non-Designers-Design-Book-Typographic-Principles/dp/1566091594"
+                            }]
+                        },
+                        {
+                            "literatura": "Lect_6",
+                            "references": [{
+                                    "naslov": "Non-Designers Design Book: Design and Typographic Principles for the Visual Novice",
+                                    "author": "Robin Williams (avaliable from Amazon)",
+                                    "year": 2008,
+                                    "link": "http://www.amazon.com/Non-Designers-Design-Book-Typographic-Principles/dp/1566091594"
+                                },
+                                {
+                                    "naslov": "Designing with the Mind in Mind",
+                                    "author": "Jeff Johnson",
+                                    "year": 2010,
+                                    "link": "http://www.amazon.com/Designing-Mind-Simple-Understanding-Interface/dp/012375030X"
+                                }
+                            ]
+                        }	
+                    ]																	
+                }
+            ]
+        },
+
+        "projekti": {
+            "naslov": "Semestarski projekti",
+            "items": [
+                {
+                    "type": "html",
+                    "content": "U okviru laboratorijskih vježbi student je dužan realizirati semestarski projekt (na temu po dogovoru). Po realizaciji projekta student će pripremiti finalni izvje&scaron;taj i prezentaciju. Student će prezentirati status projekta kroz semestar (u terminima po dogovoru). Zavr&scaron;en projekt podrazumijeva predan finalni izvje&scaron;taj i finalnu prezentaciju (preduvjeti za upis konačne ocjene). Profesor/asistent će osigurati svu podr&scaron;ku potrebnu za uspje&scaron;nu realizaciju projekta."
+                },
+                {
+                    "type": "html",
+                    "content": "Lab. vježbe će se organizirati u četiri (4) grupe, te će se provoditi u laboratoriju A507 prema sljedećem rasporedu:"
+                },				
+                {
+                    "type": "list",
+                    "content": [
+                        "Grupa 1: ponedjeljak, 10h00 - 11h30",
+                        "Grupa 2: četvrtak, 11h00 - 12h30",
+                        "Grupa 3: četvrtak, 12h30 - 14h00",
+                        "Grupa 4: četvrtak, 14h00 - 15h30"
+                    ]
+                },
+                {
+                    "type": "html",
+                    "content": "<p><a href=\"https://github.com/mcagalj/HCI-2017-18\"><b>GitHub repozitorij HCI-2017-2018</b></a></p>"
+                }
+            ]
+        }
+    }
+}
